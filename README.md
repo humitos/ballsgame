@@ -9,3 +9,4 @@ You can see a demo in this video:
 
 [![pilas-engine remote joystick](http://img.youtube.com/vi/CayxmTLefF8/0.jpg)](http://www.youtube.com/watch?v=CayxmTLefF8 "pilas-engine remote joystick")
 
+You can read (Spanish only) more about the idea in my blog: http://elblogdehumitos.com.ar/posts/pilas-engine-curso-colaborativo/
