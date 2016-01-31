@@ -24,6 +24,6 @@ if __name__ == '__main__':
     bombas = pilas.actores.Grupo()
 
     pilas.colisiones.agregar(mono, bombas, jugador_choca_bomba)
-    pilas.tareas.siempre(1, crear_bombas, bombas, pilas.actores.MiBomba)
+    pilas.tareas.siempre(2, crear_bombas, bombas, pilas.actores.MiBomba)
 
     pilas.ejecutar()

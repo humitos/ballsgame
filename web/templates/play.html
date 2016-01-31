@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Play{% endblock %}
+
+{% block content %}
+<div style="width: 100%; height: 90%;" class="box" id="box1"></div>
+<h3 id="statusdiv">Movement status</h3>
+{% endblock %}
+
+{% block body_end %}
+<script src="{{ url_for('static', filename='js/jquery.websocket-0.0.1.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.json-2.5.1.min.js') }}"></script>
+
+<script type="text/javascript">
+    // variables used by 'touchscreen.js'
+    var websocket_url = 'ws://{{ host }}:{{ port }}/joystick';
+    var nickname = "{{ nickname }}";
+</script>
+
+<script src="{{ url_for('static', filename='js/touchscreen.js') }}"></script>
+{% endblock %}
